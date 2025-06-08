@@ -1,0 +1,48 @@
+body {
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.avatar-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    text-align: -webkit-center;
+}
+.profile-section {
+    margin-bottom: 20px;
+}
+.role-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.role-badge.color-1 { background-color: #3498db; } /* Синий */
+.role-badge.color-2 { background-color: #e74c3c; } /* Красный */
+.role-badge.color-3 { background-color: #f1c40f; } /* Жёлтый */
+.role-badge.color-4 { background-color: #2ecc71; } /* Зелёный */
+.role-badge.color-5 { background-color: #9b59b6; } /* Фиолетовый */
+
+.statistics-bar {
+    height: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    position: relative;
+}
+.statistics-progress {
+    height: 100%;
+    background-color: #3498db; /* Синий */
+    border-radius: 5px;
+}
+
+.character-badge {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}

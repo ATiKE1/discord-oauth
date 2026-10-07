@@ -1,0 +1,2 @@
+Flask>=3.0
+Flask-Discord>=0.1.69
